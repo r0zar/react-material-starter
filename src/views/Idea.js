@@ -1,6 +1,4 @@
 import React from "react";
-import Box from "@material-ui/core/Box";
-import IconButton from "@material-ui/core/IconButton";
 import {
   Avatar,
   TextField,
@@ -14,10 +12,12 @@ import {
   DialogContent,
   DialogContentText,
   DialogActions,
+  IconButton,
+  Box,
 } from "@material-ui/core";
-import { DataContext } from "./DataContext";
+import { AuthContext } from "../contexts/AuthContext";
+import { DataContext } from "../contexts/DataContext";
 import { mean, round, merge } from "lodash";
-import { AuthContext } from "./AuthContext";
 
 export const Idea = ({ i, removeIdea, syncIdea }) => {
   const { auth } = React.useContext(AuthContext);

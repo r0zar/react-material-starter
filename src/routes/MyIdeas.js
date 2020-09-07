@@ -14,11 +14,11 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Fab from "@material-ui/core/Fab";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { Avatar, Button, Hidden, Grid } from "@material-ui/core";
-import { DataContext } from "./DataContext";
+import { AuthContext } from "../contexts/AuthContext";
+import { DataContext } from "../contexts/DataContext";
 import { reject, concat, map } from "lodash";
-import { AuthContext } from "./AuthContext";
 import { useHistory } from "react-router-dom";
-import { Idea } from "./Idea";
+import { Idea } from "../views/Idea";
 
 const drawerWidth = 240;
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import SignUp from "./SignUp";
-import SignIn from "./SignIn";
-import MyIdeas from "./MyIdeas";
+import SignUp from "./routes/SignUp";
+import SignIn from "./routes/SignIn";
+import MyIdeas from "./routes/MyIdeas";
 
 export default function App() {
   return (
