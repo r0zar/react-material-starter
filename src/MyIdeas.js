@@ -254,7 +254,8 @@ export default function MyIdeas() {
               <Typography color="secondary">{me && me.name}</Typography>
             ) : (
               <Typography color="secondary">
-                {me && `${me.name.split(" ")[0][0]}${me.name.split(" ")[1][0]}`}
+                {me.name &&
+                  `${me.name.split(" ")[0][0]}${me.name.split(" ")[1][0]}`}
               </Typography>
             )}
           </Box>

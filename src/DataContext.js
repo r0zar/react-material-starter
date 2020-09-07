@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import { merge } from "lodash";
 
 let reducer = (data, newData) => {
