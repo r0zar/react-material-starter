@@ -235,7 +235,7 @@ export default function MyIdeas() {
               }
             />
             <Box m={1}>
-              <Typography color="secondary">The Idea Pool</Typography>
+              <Typography color="secondary">Starter App</Typography>
             </Box>
           </Box>
         </Button>
