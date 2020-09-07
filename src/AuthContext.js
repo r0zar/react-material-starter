@@ -16,10 +16,6 @@ const AuthProvider = (props) => {
     console.log("Initializing...");
   };
 
-  const refreshJWT = async (input) => {
-    console.log(input);
-  };
-
   const signIn = async (input) => {
     console.log(input);
   };
