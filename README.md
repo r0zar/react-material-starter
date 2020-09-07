@@ -2,7 +2,7 @@
 
 ## How to use
 
-Fork the repository, install it and run:
+Fork the repository and run:
 
 ```sh
 npm install
